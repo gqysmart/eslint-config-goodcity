@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-goodcity",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "goodcity eslint coding guide",
     "main": "index.js",
     "scripts": {
