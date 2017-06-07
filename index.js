@@ -17,14 +17,14 @@ module.exports = {
         'curly': 1,
         'space-before-function-paren': [2, {
             anonymous: 'always',
-            named: 'never'
+            named: 'never',
         }],
         'comma-dangle': 2,
         'camelcase': [2, { properties: 'always' }],
         'id-length': 0,
         'no-shadow': 0,
         'valid-jsdoc': 2,
-        'eol-last': 2,
+        'eol-last': 0,
         'no-multiple-empty-lines': [2, { max: 2, maxEOF: 1 }],
         'no-console': 2,
         'object-shorthand': 2,
