@@ -1,0 +1,33 @@
+{
+    "name": "eslint-config-goodcity",
+    "version": "1.0.0",
+    "description": "goodcity eslint coding guide",
+    "main": "index.js",
+    "scripts": {
+        "test": "npm run --silent lint && npm run --silent lint_md",
+        "lint": "node_modules/.bin/eslint -c index.js $(git ls-files '*.js')",
+        "lint_md": "node node_modules/markdownlint/lib/markdownlint.js $(git ls-files '*.md')"
+
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gqysmart/eslint-config-goodcity.git"
+    },
+    "keywords": [
+        "eslint",
+        "goodcity"
+    ],
+    "author": "gqysmart",
+    "license": "goodcity-1.0",
+    "bugs": {
+        "url": "https://github.com/gqysmart/eslint-config-goodcity/issues"
+    },
+    "homepage": "https://github.com/gqysmart/eslint-config-goodcity#readme",
+    "dependencies": {
+        "commander": "^2.9.0"
+    },
+    "devDependencies": {
+        "eslint": "^3.19.0",
+        "markdownlint": "^0.5.0"
+    }
+}
