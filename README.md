@@ -1,4 +1,4 @@
-#Guidelines
+# Guidelines
 
 This project:
 * Defines and explians the coding style and workflow for goodcity project.See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
